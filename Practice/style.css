@@ -1,0 +1,93 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #005f75;
+}
+
+.parent {
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+  height: 60px;
+}
+
+.right-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.middle {
+  height: 50vh;
+  width: 100vw;
+  background-image: url("meet.png"); /* URL to your image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.top,
+.para {
+  color: rgb(38, 35, 16);
+  font-weight: 900;
+}
+
+.touch {
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(216, 78, 27);
+  color: white;
+}
+
+.service {
+  margin: 2%;
+}
+.about {
+  padding: 2%;
+  background-color: rgb(203, 201, 199);
+}
+.serv {
+  color: rgb(65, 133, 185);
+}
+
+ul {
+  list-style-type: disc; /* Ensures bullet points */
+  padding-left: 20px; /* Indents the list to show bullets */
+}
+
+li {
+  margin-bottom: 5px; /* Adds space between list items */
+}
+
+.abt {
+  color: rgb(44, 130, 44);
+}
+
+.contact {
+  padding: 2%;
+  background-color: rgb(254, 254, 254);
+}
+
+.cont {
+  color: red;
+}
+
+.footer {
+  background-color: var(--main-color);
+  padding: 1%;
+  text-align: center;
+  color: rgb(172, 169, 162);
+}
